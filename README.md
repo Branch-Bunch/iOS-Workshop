@@ -15,20 +15,25 @@ Here we will set up an Xcode project for development from the ground up! This is
 
 
 1. Open up Xcode and you should be prompted with this screen 👇
+
   <img src="/images/XcodeHello.png" height="300"/>
 
 1. Select **"Create a new Xcode project"**
 
 1. **Pick "Single View Application"**
+
   <img src="/images/SingleViewApplication.png" height="300"/>
 
 1. Fill out some information and **make sure language is set to Swift**.
+
   <img src="/images/FillOutSomeInfo.png" height="300"/>
 
 1. From the file selector on the left, **delete** `Main.StoryBoard`.
+
   <img src="/images/Directory.png" height="300"/>
 
 1. Click on the project file at the top of the file selector (the blue icon that says "DemoApp"). This should display some app configuration options. Under the Deployment Info section, **change the Main Interface option to be blank**.
+
   <img src="/images/RemoveMain.png" height="300"/>
 
 #### Alright we are ready to get programming!
