@@ -1,6 +1,6 @@
 # A Swift intro to iOS
 ### Topics to cover:
-1. [Setting up an Xcode Project](setting-up-an-xcode-project)
+1. [Setting up an Xcode Project](#setting-up-an-xcode-project)
 1. [StoryBoards vs Programmatically]()
 1. [What is the `AppDelegate` and a `ViewController` ?]()
 1. [Basic View Layout]()
