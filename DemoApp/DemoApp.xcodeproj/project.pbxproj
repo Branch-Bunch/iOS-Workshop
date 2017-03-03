@@ -287,6 +287,7 @@
 				1D0456D11E69F18800008867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
