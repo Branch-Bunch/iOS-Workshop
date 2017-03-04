@@ -10,16 +10,30 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	let label = UILabel()
+	let textField = UITextField()
+	let button = UIButton(type: .roundedRect)
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		view.backgroundColor = .blue
+
+		label.text = "hello!"
+		label.frame = CGRect(x: 20, y: 40, width: view.frame.width, height: 20)
+		view.addSubview(label)
+
+		textField.borderStyle = .roundedRect
+		textField.frame = CGRect(x: 20, y: label.frame.maxY + 10, width: view.frame.width - 40 , height: 30)
+		view.addSubview(textField)
+
+		button.setTitle("Set Text", for: .normal)
+		button.addTarget(self, action: #selector(ViewController.buttonPressed), for: .touchUpInside)
+		button.frame = CGRect(x: 20, y: textField.frame.maxY + 10, width: view.frame.width - 40, height: 30)
+		view.addSubview(button)
 	}
 
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
+	func buttonPressed() {
+		label.text = textField.text
 	}
-
-
 }
 
