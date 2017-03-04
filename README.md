@@ -1,9 +1,9 @@
 # A Swift intro to iOS
 ### Topics to cover:
 1. [Setting up an Xcode Project](#setting-up-an-xcode-project)
-1. [StoryBoards vs Programmatically](#StoryBoards-vs-programmatically)
-1. [What is the `AppDelegate` and a `ViewController`?]()
-1. [Basic View Layout]()
+1. [StoryBoards vs Programmatically](#storyboards-vs-programmatically)
+1. [What is the `AppDelegate` and a `ViewController`?](#what-is-the-appdelegate-and-a-viewcontroller-)
+1. [Basic View Layout](#basic-view-layout)
 
 ### Prerequisites:
 * MacOS - you can only develop for iPhone on a Mac
