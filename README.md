@@ -1,4 +1,6 @@
 # A Swift intro to iOS
+Definitly check out the [pre-workshop slides](https://docs.google.com/presentation/d/1ddFQr5i6kycuNZin2XjqNIsxVthAvvU8Or3tsw37WBI/edit?usp=sharing).
+
 ### Topics to cover:
 1. [Setting up an Xcode Project](#setting-up-an-xcode-project)
 1. [StoryBoards vs Programmatically](#storyboards-vs-programmatically)
